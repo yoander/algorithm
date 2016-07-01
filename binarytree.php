@@ -241,7 +241,7 @@ class Test
         print_r($max . PHP_EOL);
 
         /**
-         *  This is a subset representation of the big tringule
+         *  This is a subset representation of the big triangle
          *
          *               75
          *            /     \
