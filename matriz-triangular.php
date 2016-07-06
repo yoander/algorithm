@@ -68,7 +68,7 @@ function main_speed_improved($matrix) {
                 $mayor = $value;
                 // Set column for the new mayor
                 $current_col = $key;
-                // If existe 2 child with same value calculate the best route
+                // If exists 2 child with same value calculate the best route
             } elseif ($value == $mayor && ($i < $rows - 1)) {
                 $children1 = get_children($current_col, $matrix[$i + 1]);
                 $children2 = get_children($key, $matrix[$i + 1]);
